@@ -1,0 +1,29 @@
+{
+  "name": "test-build-cli",
+  "bin": {
+    "test-build": "./dist/index.js"
+  },
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "link-cli": "yarn --global unlink test-build-cli && yarn --global link",
+    "dev": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Uzoamaka126/test-build-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Uzoamaka126/test-build-cli/issues"
+  },
+  "homepage": "https://github.com/Uzoamaka126/test-build-cli#readme",
+  "devDependencies": {
+    "@types/node": "^20.5.0",
+    "typescript": "^5.1.6"
+  }
+}
