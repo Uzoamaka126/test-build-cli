@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+// entry point from where you can start building stuff out
 import { Command } from 'commander';
 
 // Declare the program

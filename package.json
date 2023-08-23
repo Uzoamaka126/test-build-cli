@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "link-cli": "yarn --global unlink test-build-cli && chmod +x ./dist/index.js && yarn --global link",
+    "link-cli": "(yarn --global unlink test-build-cli || true) && chmod +x ./dist/index.js && yarn --global link",
     "dev": "tsc -w"
   },
   "repository": {
